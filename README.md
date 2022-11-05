@@ -53,10 +53,11 @@ $ pytest
 
 ![result](./img/test_result.png)
 
-In the **/cardsdeck_rounds/test/test_calCardRounds.py** file, the test are based on following:
+In the **/cardsdeck_rounds/test/test_calCardRounds.py** file, the test caaes are based on following:
 ```python
 1. By passing the variable
-input_deck_size = 7
+   
+   input_deck_size = 7
 
 and
 
