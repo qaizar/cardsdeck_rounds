@@ -25,14 +25,30 @@ $ ./calCardRounds.py 10
 
 ![result](./img/script_result.png)
 
+## Execute the test using pytest
+
+Open the Terminal application. Navigate to the folder **/cardsdeck_rounds/test/** run the following command to execute the test.
+
 ```shell
-------- Result: -------
-Deck of 10 cards will take => 6 rounds to put the deck back into the original order
-```
-OR
+$ python3 -m pytest -v
 
-Open command prompt on **Windows**
+or 
+
+$ pytest
+```
+
+**Following is the test results:**
+
+![result](./img/test_result.png)
+
+In the **/cardsdeck_rounds/test/test_calCardRounds.py** file, the test are based on following:
+```python
+1. By passing the variable
+input_deck_size = 7
+
+and
+
+2. By passing the value of card deck size 10
 
 ```
-bash ./emailvalidator.sh emailaddress.txt
-```
+
