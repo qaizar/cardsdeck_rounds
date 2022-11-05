@@ -17,7 +17,7 @@ Clone the repo locally, following will be the directory structure
 
 Open the Terminal application. Navigate to the folder **cardsdeck_rounds/cardRounds/** run the following command to execute the script. Pass the **arg** value for the **"card deck size"**, e.g.: 10
 
-`#0d1117`
+```bash
 $ ./calCardRounds.py 10 
 ```
 OR
