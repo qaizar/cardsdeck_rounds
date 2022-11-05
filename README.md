@@ -3,7 +3,7 @@
 ## Setup
 Clone the repo locally, following will be the directory structure
 ```
-|__**cardsdeck_rounds**
+|__cardsdeck_rounds
 ├── README.md
 ├── cardRounds
 │   ├── __init__.py
@@ -18,7 +18,13 @@ Clone the repo locally, following will be the directory structure
 Open the Terminal application. Navigate to the folder **cardsdeck_rounds/cardRounds/** run the following command to execute the script. Pass the **arg** value for the **"card deck size"**, e.g.: 10
 
 ```bash
-$ ./calCardRounds.py 10 
+$ ./calCardRounds.py 10
+
+Following is the output (result)
+
+------- Result: -------
+Deck of 10 cards will take => 6 rounds to put the deck back into the original order
+
 ```
 OR
 
