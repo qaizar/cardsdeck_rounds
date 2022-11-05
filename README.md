@@ -23,7 +23,7 @@ $ ./calCardRounds.py 10
 
 **Following is the output (result):**
 
-![result](./imgs/script_result.png)
+![result](./img/script_result.png)
 
 ```shell
 ------- Result: -------
