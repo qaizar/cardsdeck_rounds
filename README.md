@@ -39,7 +39,7 @@ $ ./calCardRounds.py 10
 
 ## Execute the test using pytest
 
-Open the Terminal application. Navigate to the folder **/cardsdeck_rounds/test/** run the following command to execute the test.
+Open the Terminal application. Navigate to the folder **/cardsdeck_rounds/test/** run the following command to execute the test cases using pytest.
 
 ```shell
 $ python3 -m pytest -v
