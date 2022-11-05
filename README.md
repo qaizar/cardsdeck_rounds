@@ -1,25 +1,24 @@
 # cardsdeck_rounds
 
 ## Setup
-clone the repo to locally
-Following is the directory structure
+Clone the repo locally, following will be the directory structure
 ```
-|__cardsdeck_rounds
-|____cardRounds
-| |______init__.py
-| |____calCardRounds.py
-|____test
-| |______init__.py
-| |____test_calCardRounds.py
-|____README.md
+|__**cardsdeck_rounds**
+├── README.md
+├── cardRounds
+│   ├── __init__.py
+│   └── calCardRounds.py
+└── test
+    ├── __init__.py
+    └── test_calCardRounds.py
 ```
 
-## Execute the validator
+## Execute the script
 
-Open the Terminal application on **Linux or Unix**. Navigate to the folder that you downloaded the two files and run the following command.
+Open the Terminal application. Navigate to the folder **cardsdeck_rounds/cardRounds/** run the following command to execute the script. Pass the **arg** value for the **"card deck size"**, e.g.: 10
 
-```
-$ ./emailvalidator.sh emailaddress.txt
+`#0d1117`
+$ ./calCardRounds.py 10 
 ```
 OR
 
