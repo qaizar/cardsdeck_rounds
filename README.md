@@ -8,6 +8,9 @@ Clone the repo locally, following will be the directory structure
 ├── cardRounds
 │   ├── __init__.py
 │   └── calCardRounds.py
+├── img
+│   ├── script_result.png
+│   └── test_result.png
 └── test
     ├── __init__.py
     └── test_calCardRounds.py
@@ -15,7 +18,16 @@ Clone the repo locally, following will be the directory structure
 
 ## Execute the script
 
-Open the Terminal application. Navigate to the folder **cardsdeck_rounds/cardRounds/** run the following command to execute the script. Pass the **arg** value for the **"card deck size"**, e.g.: 10
+**Version**
+- python: Python 3.9.5
+- pytest: pytest 7.2.0
+
+**Required Python modules**
+- from math import gcd
+- from functools import reduce
+- from copy import deepcopy
+
+Open the Terminal application. Navigate to the folder **cardsdeck_rounds/cardRounds/** run the following command to execute the python script. Pass the **arg** value for the **"card deck size"**, e.g.: 10
 
 ```shell
 $ ./calCardRounds.py 10
